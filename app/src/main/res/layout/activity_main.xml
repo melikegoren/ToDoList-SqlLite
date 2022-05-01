@@ -18,14 +18,14 @@
         android:hint="@string/enter_your_task"
         android:inputType="textMultiLine"
         android:textColor="@color/antrasit"
-        app:layout_constraintBottom_toTopOf="@+id/lv_customerList"
+        app:layout_constraintBottom_toTopOf="@+id/task_lv"
         app:layout_constraintEnd_toStartOf="@+id/add_btn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <ListView
-        android:id="@+id/lv_customerList"
+        android:id="@+id/task_lv"
         android:layout_width="wrap_content"
         android:layout_height="436dp"
         android:backgroundTint="@color/antrasit"

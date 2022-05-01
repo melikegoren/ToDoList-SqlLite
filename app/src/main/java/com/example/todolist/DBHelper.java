@@ -59,7 +59,7 @@ public class DBHelper extends SQLiteOpenHelper {
         }
     }
 
-    public List<EnterTask> getEveryone(){
+    public List<EnterTask> getEverything(){
         List<EnterTask> returnList =  new ArrayList<>();
         String queryString = "SELECT * FROM " + TASK_TABLE;
         SQLiteDatabase db = this.getReadableDatabase();
@@ -67,10 +67,10 @@ public class DBHelper extends SQLiteOpenHelper {
 
         if(cursor.moveToFirst()){
             do{
-                int customerID = cursor.getInt(0);
-                String customerName = cursor.getString(1);
-                EnterTask newCustomer = new EnterTask(customerID,customerName);
-                returnList.add(newCustomer);
+                int taskID = cursor.getInt(0);
+                String task = cursor.getString(1);
+                EnterTask newTask = new EnterTask(taskID,task);
+                returnList.add(newTask);
             }while(cursor.moveToNext());
         }
         else {
