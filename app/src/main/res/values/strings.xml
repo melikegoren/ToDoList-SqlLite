@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="enter_your_task" translatable="false">Enter Your Task</string>
+    <string name="view_all">View All</string>
+    <string name="Add">Add</string>
+    <dimen name="listview_margin_start">12dp</dimen>
+    <string name="your_tasks_here">Your Tasks</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CustomerName" translatable="false">Customer Name</string>
+    <string name="Age" translatable="false">Age</string>
+    <string name="ActiveCustomer" translatable="false">Active Customer</string>
+    <string name="view_all" translatable="false">View All</string>
+    <string name="Add" translatable="false">Add</string>
+</resources>
