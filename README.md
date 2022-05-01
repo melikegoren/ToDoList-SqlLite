@@ -1,5 +1,5 @@
 # ToDoList-SqlLite
-#A simple To Do List that stores data with SqlLite Database
+#A simple To Do List app that stores data with SqlLite Database
 
 
 ![1](https://user-images.githubusercontent.com/79282676/166148887-6df30095-a229-4b92-abd8-2bb97f4459db.PNG)
